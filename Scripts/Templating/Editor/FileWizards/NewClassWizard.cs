@@ -10,7 +10,7 @@ namespace Nobledust.Templating
 {
     public class NewClassWizard : BaseTemplatingWizard
     {
-        [MenuItem("Assets/Create Script/New Class...", false, -1)]
+        [MenuItem("Assets/Create Script/New Class...", false, -8)]
         private static void CreateWizard()
         {
             DisplayWizard<NewClassWizard>("New Class", "Generate");

@@ -17,7 +17,7 @@ namespace Nobledust.Templating
 
         public string InspectedType;
 
-        [MenuItem("Assets/Create Script/New Custom Inspector...", false, 1)]
+        [MenuItem("Assets/Create Script/New Custom Inspector...", false, 10)]
         private static void CreateWizard()
         {
             DisplayWizard<CustomInspectorWizard>("New Custom Inspector", "Generate");

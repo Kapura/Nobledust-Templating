@@ -10,7 +10,7 @@ namespace Nobledust.Templating
 {
     public class EditorScriptWizard : BaseTemplatingWizard
     {
-        [MenuItem("Assets/Create Script/New Editor Script...", false, 3)]
+        [MenuItem("Assets/Create Script/New Editor Script...", false, 15)]
         private static void CreateWizard()
         {
             DisplayWizard<EditorScriptWizard>("New Editor Script", "Generate");

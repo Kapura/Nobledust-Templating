@@ -17,7 +17,7 @@ namespace Nobledust.Templating
 
         public string MenuPath;
 
-        [MenuItem("Assets/Create Script/New Editor Window...", false, 4)]
+        [MenuItem("Assets/Create Script/New Editor Window...", false, 16)]
         private static void CreateWizard()
         {
             DisplayWizard<EditorWindowWizard>("New Editor Window", "Generate");

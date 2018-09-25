@@ -10,7 +10,7 @@ namespace Nobledust.Templating
 {
     public class MonoBehaviourWizard : BaseTemplatingWizard
     {
-        [MenuItem("Assets/Create Script/New MonoBehaviour...", false, 0)]
+        [MenuItem("Assets/Create Script/New MonoBehaviour...", false, -10)]
         private static void CreateWizard()
         {
             DisplayWizard<MonoBehaviourWizard>("New MonoBehaviour", "Generate");

@@ -19,7 +19,7 @@ namespace Nobledust.Templating
         public string NewObjectMenuName;
         public string NewObjectFileName;
 
-        [MenuItem("Assets/Create Script/New ScriptableObject...", false, 1)]
+        [MenuItem("Assets/Create Script/New ScriptableObject...", false, -9)]
         private static void CreateWizard()
         {
             DisplayWizard<ScriptableObjectWizard>("New Scriptable Object", "Generate");

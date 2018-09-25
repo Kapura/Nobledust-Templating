@@ -17,7 +17,7 @@ namespace Nobledust.Templating
 
         public string PropertyType;
 
-        [MenuItem("Assets/Create Script/New Custom Property Drawer...", false, 1)]
+        [MenuItem("Assets/Create Script/New Custom Property Drawer...", false, 11)]
         private static void CreateWizard()
         {
             DisplayWizard<CustomPropertyDrawerWizard>("New Custom Property Drawer", "Generate");
