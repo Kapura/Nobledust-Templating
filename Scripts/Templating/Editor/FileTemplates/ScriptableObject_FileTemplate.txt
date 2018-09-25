@@ -1,0 +1,17 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace $$NAMESPACE$$
+{
+    [CreateAssetMenu(menuName = "$$OBJECT_MENU_NAME$$", fileName = "$$OBJECT_FILE_NAME$$")]
+    public class $$CLASSNAME$$ : ScriptableObject
+    {
+        
+    }
+}

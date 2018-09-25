@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a6640fac66d7fbb43b5b7389e8b6f71b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - TemplateFile: {fileID: 4900000, guid: ba39ba6ebc7ad964c8bc17e0d77e5e68, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

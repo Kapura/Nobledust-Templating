@@ -1,0 +1,16 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace $$NAMESPACE$$
+{
+    public class $$CLASSNAME$$ : MonoBehaviour
+    {
+        
+    }
+}

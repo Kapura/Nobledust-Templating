@@ -1,0 +1,19 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+using UnityEditor;
+
+namespace $$NAMESPACE$$
+{
+    [CustomEditor(typeof($$INSPECTED_TYPE$$))]
+    public class $$CLASSNAME$$ : UnityEditor.Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            EditorGUILayout.LabelField("$$CLASSNAME$$.OnInspectorGUI() Not Implemented");
+        }
+    }
+}

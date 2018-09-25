@@ -1,0 +1,16 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+using UnityEngine;
+using UnityEditor;
+
+namespace $$NAMESPACE$$
+{
+    public class $$CLASSNAME$$
+    {
+        
+    }
+}

@@ -1,0 +1,26 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+using UnityEngine;
+using UnityEditor;
+
+namespace $$NAMESPACE$$
+{
+    public class $$CLASSNAME$$ : EditorWindow
+    {
+        [MenuItem("$$MENU_PATH$$")]
+        private static void Init()
+        {
+            $$CLASSNAME$$ window = GetWindow<$$CLASSNAME$$>("$$CLASSNAME$$");
+            window.Show();
+        }
+
+        private void OnGUI()
+        {
+        
+        }
+    }
+}

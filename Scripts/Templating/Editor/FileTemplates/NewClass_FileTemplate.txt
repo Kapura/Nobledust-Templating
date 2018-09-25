@@ -1,0 +1,13 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+
+namespace $$NAMESPACE$$
+{
+    public class $$CLASSNAME$$
+    {
+        	
+    }
+}

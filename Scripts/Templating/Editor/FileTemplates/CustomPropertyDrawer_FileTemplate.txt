@@ -1,0 +1,25 @@
+/*
+ *  $$CLASSNAME$$
+ *  Author: $$AUTHOR$$
+ *  Created: $$DATE$$
+ */
+ 
+using UnityEngine;
+using UnityEditor;
+
+namespace $$NAMESPACE$$
+{
+    [CustomPropertyDrawer(typeof($$PROPERTY_TYPE$$))]
+    public class $$CLASSNAME$$ : PropertyDrawer
+    {
+        public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+        {
+            return base.GetPropertyHeight(property, label);
+        }
+
+        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+        {
+            base.OnGUI(position, property, label);
+        }
+    }
+}
