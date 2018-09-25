@@ -49,8 +49,7 @@ namespace Nobledust.Templating
 
         protected virtual void Awake()
         {
-            if (TemplateFile == null)
-                GetTemplateFile();
+            GetTemplateFile();
 
             Author = PlayerPrefs.GetString(PPKEY_AUTHOR, "Author Name");
             Namespace = PlayerPrefs.GetString(PPKEY_NAMESPACE, PROJECT_NAME);

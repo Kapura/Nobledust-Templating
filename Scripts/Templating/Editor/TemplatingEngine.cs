@@ -51,12 +51,22 @@ namespace Nobledust.Templating
             if (dirty)
             {
                 transformedText = InputText;
+                Dictionary<string, string> outstringsByHash = new Dictionary<string, string>();
+
                 foreach (DataTransform transform in dataTransforms)
                 {
                     string hashString = transform.SearchString.GetHashCode().ToString();
                     transformedText = transformedText.Replace(transform.SearchString, hashString);
+                    outstringsByHash[hashString] = transform.TransformFunction();
+
                     transformedText = transformedText.Replace(hashString, transform.TransformFunction());
                 }
+
+                foreach (KeyValuePair<string, string> kvp in outstringsByHash)
+                {
+                    transformedText.Replace(kvp.Key, kvp.Value);
+                }
+
                 dirty = false;
             }
 
