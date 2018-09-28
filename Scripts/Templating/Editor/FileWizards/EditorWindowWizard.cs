@@ -26,7 +26,7 @@ namespace Nobledust.Templating
         protected override void Awake()
         {
             base.Awake();
-            MenuPath = "Windows/New Window";
+            MenuPath = "Window/New Window";
         }
 
         protected override void AddEngineTransforms(TemplatingEngine engine)
